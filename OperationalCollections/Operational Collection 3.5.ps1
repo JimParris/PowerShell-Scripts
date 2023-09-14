@@ -69,7 +69,7 @@ $FolderPath = ($SiteCode.Name + ":\DeviceCollection\" + $CollectionFolder.Name)
 $LimitingCollection = "All Systems"
 
 #Refresh Schedule
-$Schedule = New-CMSchedule –RecurInterval Days –RecurCount 7
+$Schedule = New-CMSchedule -RecurInterval Days -RecurCount 7
 
 #Find Existing Collections
 $ExistingCollections = Get-CMDeviceCollection -Name "* | *" | Select-Object CollectionID, Name
