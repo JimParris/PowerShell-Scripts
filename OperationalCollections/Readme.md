@@ -1,4 +1,4 @@
-This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
+This script will create a set of 148 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
 
 Blog Post with all details : https://systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script/
 
@@ -15,6 +15,15 @@ Full list :
 - All Clients Active
 - All Client Inactive
 - All Clients Online
+- All Clients R2 CU0
+- All Clients R2 CU1
+- All Clients R2 CU2
+- All Clients R2 CU3
+- All Clients R2 CU4
+- All Clients R2 CU5
+- All Clients R2 SP1
+- All Clients R2 SP1 CU1
+- All Clients R2 SP1 CU2
 - All Clients R2 CU0
 - All Clients R2 CU1
 - All Clients R2 CU2
@@ -44,6 +53,9 @@ Full list :
 - All Client 2010
 - All Client 2103
 - All Client 2107
+- All Client 2111
+- All Client 2203
+- All Client 2207
 - All Clients Not Reporting HW Inv since 14 days
 - All Clients Not Reporting SW Inv since 30 days
 - All Clients X86
@@ -95,6 +107,12 @@ Full list :
 - Workstations | Windows 10 v1809
 - Workstations | Windows 10 v1903
 - Workstations | Windows 10 v1909
+- Workstations | Windows 10 v2004
+- Workstations | Windows 10 v20H2
+- Workstations | Windows 10 v21H1
+- Workstations | Windows 10 v21H2
+- Workstations | Windows 11
+- Workstations | Windows 11 v21H2
 - Workstations | Windows 10 Current Branch (CB)
 - Workstations | Windows 10 Current Branch for Business (CBB)
 - Workstations | Windows 10 Long Term Servicing Branch (LTSB)
@@ -138,6 +156,9 @@ Full list :
 - Office 365 Channel | Semi-Annual
 - Office 365 Channel | Semi-Annual (Targeted)
 - All systems having a duplicate device record
+- Workstations | Co-Management Enabled
+- Workstations | Defender ATP Onboarded
+- Workstations | Defender ATP Not Onboarded
 
 
 Tip : You can comment out any collections that you don't want using (#) at the begging of the "New/Add-CMCollection" lines in the "Create Collection" Section.
